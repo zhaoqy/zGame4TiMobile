@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Numbers Game</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/triangle.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+	<div id="results"></div>
+	<div id="timer" style="display:none">00</div>
+	<section id="content">
+        <div id="lvl" class="slideOut"></div>
+        <div id="ans" class="slideOut"></div>
+        <!--<div id="cur" class="slideOut">结果: 0</div>-->
+         <div id="rules" class="slideOut">
+	        <img id="hideRules" src="images/close.png" />
+            <h1>规则</h1>
+            <p>#1: 每行只能选一个数字</p>
+            <p>#2: 每个选择必须相邻到下一个</p>
+            <p>#3: 必须在规定时间内完成选择</p>
+        </div>
+        <div id="getRules" class="slideOut" style="display: none">规则</div> 
+        <div id="panel">
+        </div>
+       <div id="how" >
+       	 	<div id='startGame' onclick="GameStart()"></div>
+        	<img id="main" src="images/main.jpg" width=320 height=480/>
+       </div>
+	</section>
+<!--    
+	<audio id="click" preload="auto">
+    	<source src="sounds/click.ogg" type="audio/ogg" ></source>
+    	<source src="sounds/click.mp3" ></source>
+    </audio>
+	<audio id="win" preload="auto">
+		<source src="sounds/win.ogg" type="audio/ogg" ></source>
+		<source src="sounds/win.mp3" ></source>
+	</audio>
+	<audio id="lose" preload="auto">
+		<source src="sounds/lose.ogg" type="audio/ogg" ></source>
+		<source src="sounds/lose.mp3" ></source>
+	</audio>
+-->
+<!-- 	<script type="text/javascript" src="js/load.js"></script> -->
+	<script type="text/javascript" src="js/inserttitle.js"></script>
+	<script type="text/javascript" src="js/compiled.uncomp.js"></script>
+	<script type="text/javascript" src="js/init.js"></script>
+</body>
+</html>
+

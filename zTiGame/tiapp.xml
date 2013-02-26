@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">vRjTVi1VyT5yfp9qqes9hYcb4iBBXxY2</property>
+    <property name="acs-oauth-key-production" type="string">xBIWEEOnE9xpPqLB1XCcKY0M9wsBkpX3</property>
+    <property name="acs-api-key-production" type="string">RBkjhEsbwGAbZZ5pgTSkyIY66fBUHBpE</property>
+    <property name="acs-oauth-secret-development" type="string">OUnDG1aQ0zNkIlROdOmvDkHKPdu8WqBV</property>
+    <property name="acs-oauth-key-development" type="string">SVCR1oJTlSQXwX7sFaZKEDGlIYVCzxok</property>
+    <property name="acs-api-key-development" type="string">GH1qY6BMsQIdyar4tQQHBlHvj2blE9As</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">false</target>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>3.0.2.GA</sdk-version>
+    <id>com.ematchina.app.Zgame</id>
+    <name>MoMoGame</name>
+    <version>1.0</version>
+    <publisher>zhaoqy</publisher>
+    <url>http://www.html5-phone.com</url>
+    <description>游戏研发 by zhaoqy</description>
+    <copyright>zhaoqy</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>true</persistent-wifi>
+    <prerendered-icon>true</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>true</statusbar-hidden>
+    <fullscreen>true</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>false</analytics>
+    <guid>2b825aff-87b3-4585-a4dc-35ddff656fc5</guid>
+    <property name="ti.ui.defaultunit">dip</property>
+    <property name="production" type="string">true</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules/>
+</ti:app>

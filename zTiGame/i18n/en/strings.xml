@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>	
+	<string name="app_name">zGame</string>
+	<string name="app_emat_name">zGame</string>
+
+	<string name="msg_loading">Loading</string>
+	<string name="msg_timeout">TimeOut</string>
+	<string name="main_about">zGame by zhaoqy</string>
+	<string name="game_info">开心生活</string>
+	<string name="version">版本:</string>
+	<string name="company_name_cn">赵</string>
+	<string name="company_name_en">zhaoqy</string>
+	<string name="copyright">Copyright © 2010-2012 By zhaoqy</string>
+	<string name="website_url">http://www.html5-phone.com</string>
+	
+	<string name="btn_close">关闭</string>
+	<string name="label_about">关于我们</string>
+
+	<string name="app_about_name">关于我们</string>
+	<string name="main_shooter">
+		一款将射击游戏引入智能手机的作品。强悍的游戏，在浩瀚的太空中，激情的战机，让子弹飞吧，飞吧，飞吧。
+	</string>
+</resources>
