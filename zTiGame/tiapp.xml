@@ -14,7 +14,7 @@
         <target device="blackberry">false</target>
     </deployment-targets>
     <sdk-version>3.0.2.GA</sdk-version>
-    <id>com.ematchina.app.Zgame</id>
+    <id>me.honeblade.app.Zgame</id>
     <name>MoMoGame</name>
     <version>1.0</version>
     <publisher>zhaoqy</publisher>
